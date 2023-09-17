@@ -1447,7 +1447,7 @@ MonoBehaviour:
   - {fileID: 903340196}
   - {fileID: 2126509628}
   - {fileID: 1151532440}
-  DropDistance: 0.3
+  DropDistance: 0.45
   isLocked: 0
 --- !u!114 &1091146216
 MonoBehaviour:
@@ -2052,7 +2052,7 @@ MonoBehaviour:
   - {fileID: 903340196}
   - {fileID: 2126509628}
   - {fileID: 1151532440}
-  DropDistance: 0.3
+  DropDistance: 0.45
   isLocked: 0
 --- !u!114 &1354736295
 MonoBehaviour:
@@ -2604,7 +2604,7 @@ MonoBehaviour:
   - {fileID: 903340196}
   - {fileID: 2126509628}
   - {fileID: 1151532440}
-  DropDistance: 0.3
+  DropDistance: 0.45
   isLocked: 0
 --- !u!114 &1912068049
 MonoBehaviour:
