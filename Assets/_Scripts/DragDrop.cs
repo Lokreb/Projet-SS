@@ -16,7 +16,7 @@ public class DragDrop : MonoBehaviour
     void Start()
     {
         objectInitPos = objectDrag.transform.position;
-        originalParent = objectDrag.transform.parent; // Enregistrez le parent d'origine
+        originalParent = objectDrag.transform.parent; // Enregistre le parent d'origine
     }
 
     public void DragObject()
@@ -24,7 +24,7 @@ public class DragDrop : MonoBehaviour
         if (!isLocked)
         {
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mousePosition.z = 0; // Assurez-vous que la coordonnée Z est correcte
+            mousePosition.z = 0;
 
             // Déplacez l'objet vers la position de la souris en coordonnées du monde
             objectDrag.transform.position = mousePosition;
@@ -79,7 +79,7 @@ public class DragDrop : MonoBehaviour
             else
             {
                 objectDrag.transform.position = objectInitPos;
-                // Rétablissez le parent d'origine de l'objet (le canvas)
+                // Rétablissez le parent d'origine de l'objet
                 objectDrag.transform.SetParent(originalParent);
             }
         }
