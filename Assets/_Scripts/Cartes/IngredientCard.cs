@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Ingredient")]
+[CreateAssetMenu(fileName = "New Ingredient", menuName = "IngredientCard")]
 public class IngredientCard : ScriptableObject
 {
     public string cardName;
-    public string description;
     public Rarity rarity;
     public Sprite cardArt; 
 
